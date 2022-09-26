@@ -1,0 +1,236 @@
+@media screen and (max-width: 1024px) {
+    header .nav-list{
+        display: none;
+        margin: 0;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 8px 150px;
+    }
+    header .fa-bars{
+        display: initial;
+        font-size: 2em;
+        color: var(--btn-color);
+        margin-right: 20px;
+        position: absolute;
+        left: 120px;
+        top: 25px;
+        cursor: pointer;
+    }
+    .media{
+        display: initial;
+    }
+     .responsive{
+        position: absolute;
+        width: 20%;
+        height: 100vh;
+        background-color: rgb(205, 228, 236);
+        display: none;
+        padding: 20px 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        transition: 1s ease-in-out;
+    }
+    .active{
+        display: initial;
+    }
+    .x{
+        width: 100%;
+        display: flex;
+        justify-content: right;
+    }
+    header .fa-close{
+        font-size: 1.5em;
+        font-weight: bold;
+        color: var(--btn-color);
+        cursor: pointer;
+        padding: 5px 9px;
+        margin: 10px;
+        border: 2px solid var(--btn-color);
+        border-radius: 50%;
+    }
+    .re-nav{
+        margin: 20px 0;
+        width: 100%;
+    }
+    .re-nav li{
+        width: 100%;
+        padding: 15px;
+    }
+    .re-list{
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 10px 5px;
+        padding: 5px;
+        font-weight: 550;
+        font-size: 1em;
+        letter-spacing: .5px;
+        color: rgb(80, 76, 76);
+    }
+    .re-enquiry{
+        width: 80%;
+        height: 40px;
+        border-radius: 2px;
+        border: none;
+        box-shadow: 2px 2px 10px rgb(141, 194, 227);
+        background-color: var(--btn-color);
+        color: whitesmoke;
+        font-size: 1em;
+        font-weight: 600;
+        letter-spacing: 1px;
+        cursor: pointer;
+        margin-left: 15px;
+    }
+    header .enquiry{
+        display: none;
+    }
+    /* HERO SECTION */
+    aside .img1,
+    aside .img2,
+    aside .img3{
+        width: 250px;
+        height: 250px;
+    }
+    main .hero-head{
+        font-size: 2.2em;
+    }
+    aside .img1{
+        right: -15%;
+        top: -17%;
+    }
+    aside .img3{
+        bottom: -14%;
+        right: 15%;
+    }
+    /* ABOUT US SECTION */
+    .about-sec{
+        padding: 20px 120px;
+    }
+    .about-con h1{
+        font-size: 1.5em;
+        width: 70%;
+    }
+    .about-con p{
+        width: 90%;
+        font-size: 1em;
+        padding: 10px 0;
+    }
+    .dedi{
+        padding: 10px 0;
+    }
+    /* WHAT WE DO SECTION */
+    .wwd{
+        padding: 10px 120px;
+    }
+    .wwd h1{
+        font-size: 1.5em;
+    }
+    /* OUR EXPERIENCE */
+    .exp-sec{
+        padding: 10px 120px;
+    }
+    .exp-con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }  
+    .exp-sec h4{
+        text-align: center;
+    }
+    .pos1, .pos2{
+        display: none;
+    }  
+    .exp-txt h1{
+        font-size: 1.5em;
+        width: 100%;
+        padding-bottom: 3px;
+    }
+    .exp-glass{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        width: 100%;
+    }
+    .glass{
+        width: 30%;
+    }
+    .contact{
+        margin: 2px;
+    }
+     /* SEE SOMETHING */
+    .see-sth{
+        padding: 5px 120px;
+        margin: 5px 0;
+        text-align: center;
+    }
+    .ss-con{
+        display: flex;
+        justify-content: center;
+    }
+    .con1 h1{
+        font-size: 2.5em;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 3px;
+    }
+    .con1 p{
+        width: 100%;
+    }
+    .con2{
+        display: none;
+    }
+    .con1 form{
+        margin: 10px 0;
+    }
+    /* FAQ SECTION */
+    .faq1{
+        display: none;
+    }
+    .faq-con{
+        display: flex;
+        justify-content: center;
+    }
+    .faq h4{
+        text-align: center;
+    }
+    /* FOOTER */
+    .ft{
+        display: flex;
+        margin: 2px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: px;
+        padding: 10px 50px;
+    }
+    .foot{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .foot-4 .subscribe{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        border: none;
+    }
+    .subscribe input{
+        outline: none;
+        border: 1px solid rgb(125, 128, 136);
+        width: 80%;
+        height: 30px;
+        padding: 2px;
+        font-size: .8em;
+    }
+    .subscribe button{
+        width: 80%;
+    }
+};

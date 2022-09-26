@@ -1,0 +1,102 @@
+@media screen and (max-width: 1200px) {
+    nav .list-link{
+        margin: 0 3px;
+        padding: 3px 12px;
+        font-weight: 550;
+        font-size: 1.1em;
+    }
+    /* HERO SECTION */
+    main .hero-head{
+        font-size: 2.5em;
+        padding-bottom: 10px;
+    }
+    aside .img1,
+    aside .img2,
+    aside .img3{
+        width: 270px;
+        height: 270px;
+    }
+    aside .img1{
+        right: -10%;
+        top: -20%;
+    }
+    aside .img2{
+        top: -15%;
+        left: -5%;
+    }
+    aside .img3{
+        bottom: -18%;
+        right: 20%;;
+    }
+    /* ABOUT US SECTION */
+    .about-sec{
+        padding: 30px 150px;
+    }
+    .about-con h1{
+        font-size: 1.8em;
+        width: 60%;
+    }
+    .about-con p{
+        width: 80%;
+        font-weight: 400;
+        padding: 10px 0;
+    }
+    .dedi{
+        padding: 30px 0;
+    }
+    .abt-img img{
+        width: 100%;
+    } 
+    /* WHAT WE DO SECTION */ 
+    .wwd{
+        padding: 20px 150px;
+    } 
+    .wwd h1{
+        font-size: 1.8em; 
+    }  
+    /* OUR EXPERIENCE */
+    .exp-sec{
+        padding: 20px 120px;
+    }
+    .exp-txt h1{
+        font-size: 1.8em;
+        width: 30%;
+    }  
+    .pos1{
+        width: 30%;
+        height: 85%;
+        right: 8%;
+        top: 8%;
+     }
+    .pos2{
+        width: 28%;
+        height: 75%;
+        right: 23%;
+        top: 13%;
+     } 
+      /* SEE SOMETHING */
+    .see-sth{
+        padding: 20px 150px;
+    }   
+    .see-sth h1{
+        font-size: 1.8em;
+    } 
+    .name, .email{
+        width: 300px;
+        height: 30px;
+    }
+    .pd{
+        width: 300px;
+        height: 50px;
+    }   
+    /* FAQ SECTION */
+    .faq{
+        padding: 20px 120px;   
+    }
+    .foot h3{
+        font-size: 1.1em;
+    }
+    .subscribe :is(input, button){
+        height: 30px;
+    }
+}
